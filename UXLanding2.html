@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Doesn't Live Here Anymore</title>
+</head>
+<style>
+    body, html{
+    height:100%;
+}
+body{
+    padding:0;
+    margin:0;
+}
+h1, p, li{
+    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    color:#222;
+    margin:0 0 1em;
+}
+
+body {
+  background-image: url('file:///Users/maisie/Documents/Project%204/GoundPlan_1-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js">
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){   
+   $("#myVideo").bind('ended', function(){
+      location.href="https://mais.neocities.org/User/groundplan.html";   
+   }); 
+  });
+</script>
+
+<center>
+    <p>
+    <h1>A Doesn't Live Here Anymore</h1>
+
+        <video id="myVideo" width="700" height="400" controls="controls">
+            <source src="https://video.wixstatic.com/video/e7d321_44777b611e3946d392fb31ab91717712/720p/mp4/file.mp4" type="video/mp4" />
+          </video>
+</p>
+</center>
+
+    
+   
+
+</html>
